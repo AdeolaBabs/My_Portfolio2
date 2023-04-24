@@ -1,0 +1,327 @@
+@import '../../styles/contants.scss';
+
+.wrapper{
+    @media (max-width : $sm),
+        (max-width : $md) {
+            background: white;
+        }
+        // background-image: url('./gradient.png');
+        // height: 540px;
+        // box-shadow: 0px 7px 12px rgba(50, 50, 50, 0.25);
+
+    .container{
+        // align-items: flex-start;
+        @media (max-width : $sm),
+                (max-width : $md) {
+                    margin-top: 28em;
+                }
+            // margin-top: 12em;
+            gap: 2rem;
+            flex-wrap: wrap;
+
+           .upperElements{
+                // position: relative;
+                justify-content: space-between;
+                font-weight: 500;
+                color: $primary;
+               
+                .name {
+                        margin-top: 2em;
+                        font-size: 1.6rem;
+                        font-weight: 450;
+                        text-shadow: 0px 7px 12px rgba(50, 50, 50, 0.25);
+
+                    @media (max-width : $md) {
+                            margin-top: -5em;
+                            margin-left: 2em;
+                            text-shadow: 0px 7px 12px rgba(50, 50, 50, 0.25);
+                        }
+                    @media (max-width : $sm) {
+                            margin-top: -5em;
+                            margin-left: 1em;
+                            text-shadow: 0px 7px 12px rgba(50, 50, 50, 0.25);
+                        }
+                        
+                    }
+                // .menu{
+                //     display: none;
+                //         font-size: 1rem;
+                //         list-style: none;
+                //         gap: 2.5rem;
+                //         margin-top: 1.5em;
+                //         cursor: pointer;
+                //         margin-left: 4em;
+
+                //         @media (max-width : $sm),
+                //                 (max-width : $md) {
+                //                     display: contents;
+                //                     position: absolute;
+                //                     margin-top: 20em;
+                //                     display: block;
+                //                     line-height: 2.5em;
+                //                     margin-left: 2em;
+                //                 }
+                    
+                //         li {
+                //             display: contents;
+                //             a {
+                //                 color: inherit;
+                //                 text-decoration: none;
+                //             }
+                    
+                //             &:hover {
+                //                 text-decoration: underline;
+                //             }
+                //         }
+                // }
+
+                .socails{
+                    // white-space: nowrap;
+                        list-style: none;
+                        gap: 2.5rem;
+                        margin-top: 4.5em;
+
+                    @media (max-width : $md) {
+                            position: absolute;
+                            // left: 256px;
+                            // top: 375em;
+                            margin-top: -7em;
+                            margin-left: 40em;
+                        }
+
+                    @media (max-width : $sm) {
+                            position: absolute;
+                            // left: 256px;
+                            // top: 375em;
+                            margin-top: -8em;
+                            margin-left: 15em;
+                        }
+                                   
+
+                    li{
+                       
+                        display: inline-block;
+                        padding: 0.4em;
+
+                    }
+
+                    
+                }
+           }
+
+           .lowerElements{
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+
+                @media (max-width : $md) {
+                        gap: 0.5rem;
+                        text-align: start;
+                        margin-top: -20em;
+                        margin-left: 4em;
+                    }
+                @media (max-width : $sm) {
+                        gap: 0.5rem;
+                        text-align: start;
+                        margin-top: -24em;
+                        margin-left: 1em;
+                    }
+
+
+                    h1{
+                        display: none;
+                            // position: absolute;
+                            text-align: center;
+                            font-family: 'Cardo';
+                            font-style: normal;
+                            font-weight: 525;
+                            font-size: 32px;
+                            line-height: 49px;
+                            color: #4D4C76;
+                            margin-top: 0em;
+
+                            @media(max-width : $md) {
+                                    display: contents;
+                                    // display: inline;
+                                    position: absolute;
+                                    // margin-left: 1em;
+                                    // white-space: nowrap;
+                                    text-align: left;
+                                    margin-top: -20em;
+                                    font-family: 'Cardo';
+                                    font-style: normal;
+                                    font-size: 32px;
+                                    line-height: 35px;
+                                    font-weight: 540;
+                                    word-wrap: break-word;
+                                    color: #4D4C76;
+                            
+                                }
+                        @media (max-width : $sm) {
+                                display: contents;
+                                // display: inline;
+                                position: absolute;
+                                // margin-left: 1em;
+                                text-align: left;
+                                margin-top: -20em;  
+                                font-family: 'Cardo';
+                                font-style: normal;
+                                font-weight: 540;
+                                font-size: 26px;
+                                line-height: 32px;
+                                word-wrap: break-word;
+                                color: #4D4C76;
+                                
+                            }
+                            
+
+                            span{
+                                   display: none;
+                                    font-family: 'Cardo';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 32px;
+                                    line-height: 49px;
+                                    color: #8E77B7;
+                                    font-size: 32px;
+
+                                @media (max-width : $md) {
+                                        display: contents;
+                                        font-family: 'Cardo';
+                                        font-style: normal;
+                                        font-weight: 400;
+                                        font-size: 32px;
+                                        line-height: 32px;
+                                        color: #8E77B7;
+                                    }
+                                @media (max-width : $sm) {
+                                    display: contents;
+                                    font-family: 'Cardo';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 26px;
+                                    line-height: 32px;
+                                    color: #8E77B7;
+                                    }
+                                
+                            }
+                    }
+
+                            h2 {
+                                @media (max-width : $sm),
+                                    (max-width : $md) {
+                                       display: none;
+                                    }
+                                    // position: absolute;
+                                    display: none;
+                                    text-align: center;
+                                    margin-top: -1em;
+                                    font-family: 'Cardo';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 28px;
+                                    line-height: 43px;
+                                
+                                    color: #4D4C76;
+        
+                                span {
+                                
+                                    font-family: 'Cardo';
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-size: 32px;
+                                    line-height: 49px;
+                                    color: #8E77B7;
+                                    font-size: 32px;
+                                }
+                            }
+
+                            .contact{
+                                
+                                @media (max-width : $sm),
+                                    (max-width : $md) {
+                                        margin-top: 1em;
+                                    }
+                                    // margin-top: 4em ;
+                            }
+
+                            h3 {
+                                // position: absolute;
+                                    display: none;
+                                    text-align: center;
+                                    font-family: 'Josefin Sans';
+                                    font-style: normal;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    line-height: 16px;
+                                    padding: 0;
+                                
+                                    /* identical to box height */
+                                
+                                    text-align: center;
+                                
+                                    color: rgba(0, 0, 0, 0.73);
+
+                                    @media (max-width : $md) {
+                                            display: contents;
+                                            display: block;
+                                            line-height: 32px;
+                                            text-align: left;
+                                            margin-left: 0em;
+                                            font-size: 18px;
+                                        }
+
+                                @media (max-width : $sm) {
+                                        display: contents;
+                                        display: block;
+                                        line-height: 36px;
+                                        text-align: left;
+                                        // margin-left: 1em;
+                                        font-size: 16px;
+                                    }
+                                    
+                            }
+
+                          
+           }
+                   h5 {
+
+                    // position: absolute;
+                        text-align: center;
+                        font-family: 'Cardo';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 16px;
+                        margin-bottom: 3em;
+                    
+                        color: #4D4C76;
+
+                        @media(max-width : $md) {
+                                position: absolute;
+                                font-weight: 400;
+                                //    word-wrap: break-word;
+                                text-align: center;
+                                font-size: 14px;
+                                line-height: 12px;
+                                margin-top: 12em;
+                                margin-left: 11em;
+                                height: 40px;
+                            }
+        
+                       @media (max-width : $sm){
+                           position: absolute;
+                           font-weight: 400;
+                           //    word-wrap: break-word;
+                           text-align: center;
+                           font-size: 10px;
+                           line-height: 12px;
+                           margin-top: 20em;
+                           margin-left: 2em;
+                           height: 40px;
+                       }
+                       
+                       
+                   }
+    }
+}

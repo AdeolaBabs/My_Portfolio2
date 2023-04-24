@@ -1,0 +1,15 @@
+@import './contants.scss';
+
+
+.container{
+    // background: linear-gradient(123.5deg, rgb(244, 219, 251) 29.3%, rgb(255, 214, 214) 67.1%);
+    // background: linear-gradient(120deg, #ffffff 0%, #ffffff 100%);
+    // background: linear-gradient(120deg, #fdfbfb 0%, #F6E8ED 100%);
+    background: #ffffff;
+    // background: white;
+    // background: linear-gradient(110.5deg, rgba(248, 196, 249, 0.66) 22.8%, rgba(253, 122, 4, 0.15) 64.6%);
+    // background: radial-gradient(circle at 5.3% 17.2%, rgb(255, 208, 253) 0%, rgb(255, 237, 216) 90%);
+    overflow-x: clip;
+    position: relative;
+    height: 100%;  
+}

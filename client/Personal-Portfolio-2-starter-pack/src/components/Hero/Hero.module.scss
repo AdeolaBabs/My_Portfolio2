@@ -1,0 +1,297 @@
+@import '../../styles/contants.scss';
+
+
+
+.wrapper{
+    overflow: hidden;
+    // background-image: url('./gradient.png');
+    // background-image: url('./gradient.png');
+    // height: 88vh;
+
+    // @media (max-width: $sm) {
+    //     background-image: url('./gradient.png');
+    //     }
+
+
+
+    .container {
+        align-items: flex-start;
+        gap: 2rem;
+        flex-wrap: wrap;
+
+         @media (max-width: $md) {
+                 justify-content: center;
+                 text-align: center;
+                 margin-top: 30em;
+                 gap: 2rem;
+             }
+              
+            @media (max-width: $sm) {
+                    justify-content: center;
+                    text-align: center;
+                    margin-top: 18em;
+                    gap: 2rem;
+                }
+
+                        
+         
+    
+
+        div {
+           flex: 1;
+           
+        }
+
+        .leftElements {
+
+            @media (max-width: $sm){
+                justify-content: center;
+                text-align: center;
+                margin-top: -2em;
+                gap: 2rem;
+            }
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            margin-top: 5em;
+
+
+            
+            .heroText{
+
+                @media (max-width: $sm),
+                    (max-width: $md) {
+                        text-align: center;
+                        gap: 2rem;
+                        justify-content: center;
+                    }
+                display: flex;
+                align-items: center;
+                letter-spacing: .1em;
+                padding: 1.5rem;
+                gap: 2rem;
+                transition: all 200ms ease-out;
+            }
+            
+            .preText{
+
+                position: absolute;
+                    margin-top: 2em;
+                    left: 25%;
+                    align-items: center;
+                    font-family: 'Josefin Sans';
+                    font-style: normal;
+                    color: #D8ADC0;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 14px;
+                    text-decoration: underline 1.2px;
+
+                @media (max-width: $md){
+                        position: relative;
+                        margin-top: -55em;
+                        white-space: nowrap;
+                        left: 20em;
+                        // left: 50%;
+                        font-weight: 500;
+                        font-size: 14px;
+                        gap: 2rem;
+                        justify-content: center;
+                    }
+
+                @media (max-width: $sm){
+                        position: relative;
+                        margin-top: -27em;
+                        white-space: nowrap;
+                        left: 18.5em;
+                        // left: 50%;
+                        font-weight: 500;
+                        font-size: 12px;
+                        gap: 2rem;
+                        justify-content: center;
+                    }
+                        
+                
+            }
+            .introMe{
+                    margin-top: 4.5em;
+                    text-align: center;
+                    color: $secondary;
+                    position: absolute;
+                    padding-left: 60px;
+                    font-family: 'Cardo';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 36px;
+                    line-height: 40px;
+                    text-align: center;
+
+                @media (max-width: $md) {
+                        margin-top: -17em;
+                        line-height: 36px;
+                        position: relative;
+                        white-space: nowrap;
+                        left: -2.5em;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 36px;
+                        justify-content: center;
+                    }
+                @media (max-width: $sm){
+                        margin-top: -8em;
+                        line-height: 28px;
+                        position: relative;
+                        white-space: nowrap;
+                        left: -3.2em;
+                        align-items: center;
+                        font-weight: 400;
+                        font-size: 26px;
+                        justify-content: center;
+                    }
+                    
+            }
+            .introText{
+                @media (max-width: $sm),
+                    (max-width: $md) {
+                        display: none;
+                    }
+                
+                margin-top: 20em;
+                margin-left: 1em;
+                position: absolute;
+                font-family: 'Josefin Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 16px;
+                letter-spacing: normal;
+                text-align: center;
+                color: #D8ADC0;
+            }
+            .introTextWrap{
+                color: $secondary;
+            }
+
+            .contactMeBtn{
+
+                   margin-top: 14em;
+                    position: absolute;
+                    left: 23%;
+                    color: #ffffff;
+                    background-color: #B39DCB;
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-align: center;
+                    padding: 12px 24px;
+                    border-color: #B39DCB;
+                    border-width: 1px;
+                    border-radius: 40px;
+                    box-shadow: 2px 4px 4px rgb(0 0 0 / 10%);
+                    // box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+                    // box-shadow: 0px 7px 12px rgba(50, 50, 50, 0.25);
+                    transition: all 200ms ease-in-out;
+
+                    @media (max-width: $md) {
+                            margin-top: 32em;
+                            position: absolute;
+                            left: 24em;
+                            color: #ffffff;
+                            background-color: #B39DCB;
+                            font-size: 14px;
+                            line-height: 22px;
+                            text-align: center;
+                            padding: 12px 24px;
+                            border-color: #B39DCB;
+                            border-width: 1px;
+                            border-radius: 40px;
+                            box-shadow: 2px 4px 4px rgb(0 0 0 / 10%);
+                            // box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+                            // box-shadow: 0px 7px 12px rgba(50, 50, 50, 0.25);
+                            transition: all 200ms ease-in-out;
+                            justify-content: center;
+                        }
+
+                @media (max-width: $sm){
+                        margin-top: 70em;
+                        position: absolute;
+                        left: 12.5em;
+                        color: #ffffff;
+                        background-color: #B39DCB;
+                        font-size: 12px;
+                        line-height: 22px;
+                        text-align: center;
+                        padding: 10px 24px;
+                        border-color: #B39DCB;
+                        border-width: 1px;
+                        border-radius: 40px;
+                        box-shadow: 2px 4px 4px rgb(0 0 0 / 10%);
+                        // box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+                        // box-shadow: 0px 7px 12px rgba(50, 50, 50, 0.25);
+                        transition: all 200ms ease-in-out;
+                        justify-content: center;
+                    }
+            
+               
+            }
+        }
+
+      .rightElements{
+
+        @media (max-width: $sm), (max-width: $md){
+            // margin-top: 2rem;
+            gap: 2rem;
+            justify-content: center;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+
+        .person{
+            margin-top: -8em;
+                position: absolute;
+                left: 800px;
+
+                @media (max-width: $md){
+                        // position: relative;
+                        left: 10%;
+                        margin-top: 2em;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        width: 700px;
+                        height: 700px;
+                    }
+
+            @media (max-width: $sm){
+                    // position: relative;
+                    left: 0.6em;
+                    margin-top: 16em;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    width: 400px;
+                    height: 400px;
+                }
+                
+           
+
+            img {
+                width: 38em;
+
+                @media (max-width: $md) {
+                        width: 56rem;
+                    }
+                @media (max-width: $sm){
+                        width: 28rem;
+                    }
+                    
+                
+            }
+        }
+      }
+
+     }
+
+}
